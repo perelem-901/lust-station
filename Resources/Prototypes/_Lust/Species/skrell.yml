@@ -9,10 +9,10 @@
   dollPrototype: MobSkrellDummy
   skinColoration: Hues
   defaultSkinTone: "#006666"
-  maleFirstNames: NamesHumanFirstMale
-  femaleFirstNames: NamesHumanFirstFemale
-  maleLastNames: NamesHumanLast
-  femaleLastNames: NamesHumanLast
+  maleFirstNames: NamesFirstMale
+  femaleFirstNames: NamesFirstFemale
+  maleLastNames: NamesLast
+  femaleLastNames: NamesLast
   naming: FirstLast
   sexes: [Male, Female, Futanari]
 
@@ -31,6 +31,7 @@
     RLeg: MobSkrellRLeg
     LFoot: MobSkrellLFoot
     RFoot: MobSkrellRFoot
+    Hair: MobHumanoidAnyMarking
 
 - type: markingPoints
   id: MobSkrellMarkingLimits
@@ -40,9 +41,6 @@
       points: 1
       required: false
     Hair:
-      points: 1
-      required: false
-    Chest:
       points: 1
       required: false
     Arms:

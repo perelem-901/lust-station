@@ -46,6 +46,14 @@
     - "footprint-right-bare-skrell"
 
 - type: entity
+  name: Urist McSkrell
+  parent: BaseMobSkrell
+  id: MobSkrell
+  components:
+  - type: RandomHumanoidAppearance
+    randomizeName: false
+
+- type: entity
   parent: BaseSpeciesDummy
   id: MobSkrellDummy
   categories: [ HideSpawnMenu ]

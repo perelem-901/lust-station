@@ -17,27 +17,9 @@
       state: skrell_hair_f_s
 
 - type: marking
-  id: SkrellSpotsRight
-  bodyPart: Head
-  markingCategory: Head
-  speciesRestriction: [Skrell]
-  sprites:
-    - sprite: _Lust/Mobs/Species/Skrell/markings.rsi
-      state: spots-right
-
-- type: marking
-  id: SkrellSpotsLeft
-  bodyPart: Head
-  markingCategory: Head
-  speciesRestriction: [Skrell]
-  sprites:
-    - sprite: _Lust/Mobs/Species/Skrell/markings.rsi
-      state: spots-left
-
-- type: marking
   id: SkrellSpotsHairRight
   bodyPart: Hair
-  markingCategory: Hair
+  markingCategory: Head
   speciesRestriction: [Skrell]
   sprites:
     - sprite: _Lust/Mobs/Species/Skrell/markings.rsi
@@ -46,7 +28,7 @@
 - type: marking
   id: SkrellSpotsHairLeft
   bodyPart: Hair
-  markingCategory: Hair
+  markingCategory: Head
   speciesRestriction: [Skrell]
   sprites:
     - sprite: _Lust/Mobs/Species/Skrell/markings.rsi
