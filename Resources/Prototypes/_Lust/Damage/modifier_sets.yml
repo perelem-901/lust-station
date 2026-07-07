@@ -1,0 +1,6 @@
+- type: damageModifierSet
+  id: Skrell
+  coefficients:
+    Heat: 0.9   # burn_mod 0.9 — менее уязвимы к ожогам
+    Poison: 0.8 # toxins_mod 0.8 — устойчивее к токсинам
+    Shock: 1.3  # siemens_coefficient 1.3 — более уязвимы к электричеству
