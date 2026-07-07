@@ -1,0 +1,8 @@
+- type: speechSounds
+  id: Skrell
+  saySound:
+    path: /Audio/Voice/Skrell/warble1.ogg
+  askSound:
+    path: /Audio/Voice/Skrell/warble2.ogg
+  exclaimSound:
+    path: /Audio/Voice/Skrell/warble3.ogg

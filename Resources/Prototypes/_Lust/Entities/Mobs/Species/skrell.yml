@@ -1,0 +1,56 @@
+- type: entity
+  parent: BaseMobSpeciesOrganic
+  id: BaseMobSkrell
+  abstract: true
+  components:
+  - type: HumanoidAppearance
+    species: Skrell
+  - type: Body
+    prototype: Skrell
+    requiredLegs: 2
+  - type: Butcherable
+    butcheringType: Spike
+    spawned:
+    - id: FoodMeat
+      amount: 5
+  - type: Icon
+    sprite: _Lust/Mobs/Species/Skrell/parts.rsi
+    state: full
+  - type: Speech
+    speechSounds: Skrell
+    speechVerb: Skrell
+    allowedEmotes: ['Scream', 'Laugh']
+  - type: Vocal
+    sounds:
+      Male: MaleSkrell
+      Female: FemaleSkrell
+      Unsexed: MaleSkrell
+      Futanari: FemaleSkrell
+  - type: Bloodstream
+    bloodReferenceSolution:
+      reagents:
+      - ReagentId: CopperBlood
+        Quantity: 300
+  - type: Inventory
+    speciesId: human
+    femaleDisplacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Human/displacement.rsi
+            state: jumpsuit-female
+  - type: FootprintEmitter
+    leftBareFootState:
+    - "footprint-left-bare-skrell"
+    rightBareFootState:
+    - "footprint-right-bare-skrell"
+
+- type: entity
+  parent: BaseSpeciesDummy
+  id: MobSkrellDummy
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: HumanoidAppearance
+    species: Skrell
+  - type: Inventory
+    speciesId: human
