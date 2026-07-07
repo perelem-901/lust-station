@@ -1,0 +1,27 @@
+- type: emoteSounds
+  id: MaleSkrell
+  parent: MaleHuman
+  sounds:
+    Scream:
+      path: /Audio/Voice/Skrell/anger1.ogg
+    Laugh:
+      path: /Audio/Voice/Skrell/laughter1.ogg
+    Sneeze:
+      path: /Audio/Voice/Skrell/peep1.ogg
+
+- type: emoteSounds
+  id: FemaleSkrell
+  parent: FemaleHuman
+  sounds:
+    Scream:
+      path: /Audio/Voice/Skrell/anger1.ogg
+    Laugh:
+      path: /Audio/Voice/Skrell/laughter1.ogg
+    Sneeze:
+      path: /Audio/Voice/Skrell/peep1.ogg
+
+- type: emoteSounds
+  id: SkrellBodyEmotes
+  sounds:
+    Clap:
+      path: /Audio/Voice/Skrell/warble1.ogg
