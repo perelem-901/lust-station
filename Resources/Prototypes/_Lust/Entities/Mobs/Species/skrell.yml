@@ -16,6 +16,18 @@
   - type: Icon
     sprite: _Lust/Mobs/Species/Skrell/parts.rsi
     state: full
+  - type: Damageable
+    damageContainer: Biological
+    damageModifierSet: Skrell
+  - type: TemperatureDamage
+    heatDamageThreshold: 420
+    coldDamageThreshold: 280
+    coldDamage:
+      types:
+        Cold : 0.1
+    heatDamage:
+      types:
+        Heat : 1.5
   - type: Speech
     speechSounds: Skrell
     speechVerb: Skrell
