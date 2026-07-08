@@ -170,11 +170,24 @@
           reagent: Ethanol
           min: 15
         - !type:MetabolizerTypeCondition
-          type: [ Dwarf ]
+          type: [ Dwarf, Skrell ]
           inverted: true
         damage:
           types:
             Poison: 0.1
+      # skrell take more toxin damage from alcohol (ethanol malus)
+      # Lust-Start
+      - !type:HealthChange
+        conditions:
+        - !type:ReagentCondition
+          reagent: Ethanol
+          min: 10
+        - !type:MetabolizerTypeCondition
+          type: [ Skrell ]
+        damage:
+          types:
+            Poison: 0.3
+      # Lust-End
       # dwarves take less toxin damage and heal a marginal amount of brute
       # Sunrise-Start
       - !type:HealthChange
