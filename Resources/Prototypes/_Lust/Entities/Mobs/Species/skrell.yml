@@ -63,7 +63,7 @@
   id: MobSkrell
   components:
   - type: RandomHumanoidAppearance
-    randomizeName: false
+    randomizeName: true
 
 - type: entity
   parent: BaseSpeciesDummy

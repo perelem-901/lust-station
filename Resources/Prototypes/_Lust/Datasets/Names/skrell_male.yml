@@ -1,0 +1,11 @@
+- type: localizedDataset
+  id: names_skrell_male
+  values:
+    prefix: names-skrell-male-dataset-
+    count: 30
+
+- type: localizedDataset
+  id: names_skrell_female
+  values:
+    prefix: names-skrell-female-dataset-
+    count: 30
