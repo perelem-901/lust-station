@@ -31,7 +31,7 @@
   - type: Speech
     speechSounds: Skrell
     speechVerb: Skrell
-    allowedEmotes: ['Scream', 'Laugh']
+    allowedEmotes: ['Scream', 'Laugh', 'Trill', 'SkrellWarble', 'SkrellPeep']
   - type: Vocal
     sounds:
       Male: MaleSkrell

@@ -3,9 +3,24 @@
 ## TODO / Сделать позже
 
 - Гайд по расе в guidebook
-- Локализация для всего (проверить, что ничего не пропущено)
-- Phase 4: Emotes (skanger, sklaugh, skpeep, sktrill, skwarble)
+- ~~Локализация для всего (проверить, что ничего не пропущено)~~ ✅ эмоуты, спеш-вербы, метаболизатор, названия
+- ~~Phase 4: Emotes (skanger, sklaugh, skpeep, sktrill, skwarble)~~ ✅
 - Phase 5: Advanced (cold-blooded, permeable skin)
+
+## Реализовано в Phase 4 (эмоуты)
+
+- **Новые прототипы эмоутов** (`_Lust/Voice/speech_emotes.yml`):
+  - `SkrellWarble` — Warble (воркует), `SkrellPeep` — Peep (пищит), `available: false`
+  - Переиспользован `Trill` (Resomi) для скреллов через allowedEmotes
+- **Звуковые коллекции** (`_Lust/SoundCollections/skrell.yml`):
+  - `SkrellAnger`: anger1.ogg + anger2.ogg (случайный выбор)
+  - `SkrellLaugh`: laughter1.ogg
+  - `SkrellPeep`: peep1.ogg
+  - `SkrellTrill`: trill1.ogg + trill2.ogg
+  - `SkrellWarble`: warble1.ogg + warble2.ogg + warble3.ogg (случайный выбор)
+- **EmoteSounds** (`_Lust/Voice/speech_emote_sounds.yml`): Scream/Laugh теперь через коллекции
+- **allowedEmotes**: добавлены Trill, SkrellWarble, SkrellPeep
+- **Локализация**: en-US + ru-RU для имён и сообщений эмоутов
 
 ## Реализовано в Phase 3 (диета)
 

@@ -1,0 +1,41 @@
+- type: emote
+  id: SkrellWarble
+  name: chat-emote-name-warble
+  category: Vocal
+  available: false
+  whitelist:
+    components:
+    - Vocal
+  chatMessages: ["chat-emote-msg-warble"]
+  chatTriggers:
+  - warble
+  - warbles
+  - warbled
+  - warbling
+  # ru-RU
+  - воркует
+  - воркует.
+  - воркует!
+  - трелит
+  - трелит.
+  - трелит!
+
+- type: emote
+  id: SkrellPeep
+  name: chat-emote-name-peep
+  category: Vocal
+  available: false
+  whitelist:
+    components:
+    - Vocal
+  chatMessages: ["chat-emote-msg-peep"]
+  chatTriggers:
+  - peep
+  - peeps
+  - peeped
+  - peeping
+  # ru-RU
+  - пищит
+  - пищит.
+  - пищит!
+  - писк
