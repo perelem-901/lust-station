@@ -9,10 +9,10 @@
   dollPrototype: MobSkrellDummy
   skinColoration: Hues
   defaultSkinTone: "#006666"
-  maleFirstNames: NamesFirstMale
-  femaleFirstNames: NamesFirstFemale
-  maleLastNames: NamesLast
-  femaleLastNames: NamesLast
+  maleFirstNames: names_skrell_male
+  femaleFirstNames: names_skrell_female
+  maleLastNames: names_skrell_last
+  femaleLastNames: names_skrell_last
   naming: FirstLast
   sexes: [Male, Female, Futanari]
 

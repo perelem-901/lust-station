@@ -1,0 +1,5 @@
+- type: localizedDataset
+  id: names_skrell_last
+  values:
+    prefix: names-skrell-last-dataset-
+    count: 30
