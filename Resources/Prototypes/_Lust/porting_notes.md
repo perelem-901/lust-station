@@ -47,8 +47,19 @@
   - `Heat: 0.9` (Bay12 burn_mod = 0.9)
   - `Shock: 1.3` (Bay12 siemens_coefficient = 1.3)
 
+## Реализовано в Phase 4c (локализация и имена)
+
+- **Локализация маркингов**: FTL-ключи `marking-SkrellMaleTentacles`, `marking-SkrellFemaleTentacles`,
+  `marking-SkrellSpotsHairRight`, `marking-SkrellSpotsHairLeft` — en-US + ru-RU
+- **Датасеты имён**: `names_skrell_male` (30), `names_skrell_female` (30), `names_skrell_last` (30)
+  — сгенерированы из слогов языка скреллов BayStation12 (qr, qrr, xuq, qil, quum, vol, xrim, zaoo, quuu, qix, qoo, zix), 5000 итераций, затем ручная курация.
+  Имена выглядят более alien, без человеческих окончаний. Примеры: Qil-qrr, Xrimquuu, Zixquum, Qerr-Katish.
+- **species.yml**: `maleFirstNames`/`femaleFirstNames`/`maleLastNames` переключены с общечеловеческих на скрелльские
+- **MobSkrell**: `randomizeName: true` (было false) — спавн со случайными именами из датасета
+
 ## Известные проблемы / Не портировано
 
+- **Спрайт футанари**: `head_futa` и `torso_futa` в `_Lust/Mobs/Species/Skrell/parts.rsi` — копия male/female, нужно переделать
 - **Не все звуки эмоутов переопределены**: MaleSkrell/FemaleSkrell наследуют от MaleHuman/FemaleHuman.
   Для Crying, Sigh, Cough, Yawn и т.д. используются человеческие звуки. У всех нечеловеческих рас та же проблема.
   Можно добавить переопределения при желании.
