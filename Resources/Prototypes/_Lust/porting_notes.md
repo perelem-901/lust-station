@@ -2,7 +2,7 @@
 
 ## TODO / Сделать позже
 
-- Гайд по расе в guidebook
+- ~~Гайд по расе в guidebook~~ ✅
 - ~~Локализация для всего (проверить, что ничего не пропущено)~~ ✅ эмоуты, спеш-вербы, метаболизатор, названия
 - ~~Phase 4: Emotes (skanger, sklaugh, skpeep, sktrill, skwarble)~~ ✅
 - Phase 5: Advanced (cold-blooded, permeable skin)
@@ -21,6 +21,11 @@
 - **EmoteSounds** (`_Lust/Voice/speech_emote_sounds.yml`): Scream/Laugh теперь через коллекции
 - **allowedEmotes**: добавлены Trill, SkrellWarble, SkrellPeep
 - **Локализация**: en-US + ru-RU для имён и сообщений эмоутов
+
+## Реализовано в Phase 4b (гайд)
+
+- **Guide entry**: `Resources/Prototypes/Guidebook/species.yml` — `Skrell` добавлен в children Species + описание
+- **XML контент**: `Resources/ServerInfo/Guidebook/_Sunrise/Mobs/Skrell.xml` — RU описание расы
 
 ## Реализовано в Phase 3 (диета)
 
