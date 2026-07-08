@@ -1,0 +1,28 @@
+- type: soundCollection
+  id: SkrellAnger
+  files:
+  - /Audio/Voice/Skrell/anger1.ogg
+  - /Audio/Voice/Skrell/anger2.ogg
+
+- type: soundCollection
+  id: SkrellLaugh
+  files:
+  - /Audio/Voice/Skrell/laughter1.ogg
+
+- type: soundCollection
+  id: SkrellPeep
+  files:
+  - /Audio/Voice/Skrell/peep1.ogg
+
+- type: soundCollection
+  id: SkrellTrill
+  files:
+  - /Audio/Voice/Skrell/trill1.ogg
+  - /Audio/Voice/Skrell/trill2.ogg
+
+- type: soundCollection
+  id: SkrellWarble
+  files:
+  - /Audio/Voice/Skrell/warble1.ogg
+  - /Audio/Voice/Skrell/warble2.ogg
+  - /Audio/Voice/Skrell/warble3.ogg

@@ -3,22 +3,34 @@
   parent: MaleHuman
   sounds:
     Scream:
-      path: /Audio/Voice/Skrell/anger1.ogg
+      collection: SkrellAnger
     Laugh:
-      path: /Audio/Voice/Skrell/laughter1.ogg
+      collection: SkrellLaugh
     Sneeze:
       path: /Audio/Voice/Skrell/peep1.ogg
+    Trill:
+      collection: SkrellTrill
+    SkrellWarble:
+      collection: SkrellWarble
+    SkrellPeep:
+      collection: SkrellPeep
 
 - type: emoteSounds
   id: FemaleSkrell
   parent: FemaleHuman
   sounds:
     Scream:
-      path: /Audio/Voice/Skrell/anger1.ogg
+      collection: SkrellAnger
     Laugh:
-      path: /Audio/Voice/Skrell/laughter1.ogg
+      collection: SkrellLaugh
     Sneeze:
       path: /Audio/Voice/Skrell/peep1.ogg
+    Trill:
+      collection: SkrellTrill
+    SkrellWarble:
+      collection: SkrellWarble
+    SkrellPeep:
+      collection: SkrellPeep
 
 - type: emoteSounds
   id: SkrellBodyEmotes
