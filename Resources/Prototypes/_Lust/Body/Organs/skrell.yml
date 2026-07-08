@@ -1,0 +1,23 @@
+- type: entity
+  id: OrganSkrellHeart
+  parent: OrganHumanHeart
+  name: skrell heart
+  components:
+  - type: Metabolizer
+    metabolizerTypes: [Skrell]
+
+- type: entity
+  id: OrganSkrellLiver
+  parent: OrganHumanLiver
+  name: skrell liver
+  components:
+  - type: Metabolizer
+    metabolizerTypes: [Skrell]
+
+- type: entity
+  id: OrganSkrellStomach
+  parent: OrganHumanStomach
+  name: skrell stomach
+  components:
+  - type: Metabolizer
+    metabolizerTypes: [Skrell]
