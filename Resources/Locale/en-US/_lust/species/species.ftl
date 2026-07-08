@@ -1,5 +1,6 @@
 species-name-skrell = Skrell
 ent-BaseMobSkrell = Skrell
+ent-MobSkrell = Urist McSkrell
 ent-MobSkrellDummy = Skrell
 chat-speech-verb-name-skrell = Skrell
 metabolizer-type-skrell = Skrell
