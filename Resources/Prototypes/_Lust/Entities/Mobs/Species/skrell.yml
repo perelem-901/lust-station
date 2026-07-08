@@ -28,6 +28,7 @@
     heatDamage:
       types:
         Heat : 1.5
+  - type: PermeableSkin
   - type: Speech
     speechSounds: Skrell
     speechVerb: Skrell

@@ -5,7 +5,16 @@
 - Гайд по расе в guidebook
 - ~~Локализация для всего (проверить, что ничего не пропущено)~~ ✅ эмоуты, спеш-вербы, метаболизатор, названия
 - ~~Phase 4: Emotes (skanger, sklaugh, skpeep, sktrill, skwarble)~~ ✅
-- Phase 5: Advanced (cold-blooded, permeable skin)
+- ~~Phase 5: Advanced (cold-blooded, permeable skin)~~ ✅ permeable skin
+
+## Реализовано в Phase 5 (permeable skin)
+
+- **C# компонент** (`Content.Shared/_Lust/PermeableSkin/PermeableSkinComponent.cs`):
+  - `Permeability: 0.2` (20% реагента с кожи → в кровь)
+- **C# система** (`Content.Server/_Lust/PermeableSkin/PermeableSkinSystem.cs`):
+  - Подписывается на `ReactionEntityEvent` с `ReactionMethod.Touch`
+  - Создаёт `Solution` из `reagentQuantity * Permeability` и передаёт в `TryAddToBloodstream`
+- **YAML**: `BaseMobSkrell` → `- type: PermeableSkin`
 
 ## Реализовано в Phase 4 (эмоуты)
 
