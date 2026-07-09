@@ -27,7 +27,8 @@
   components:
   - type: Sprite
     sprite: _Lust/Mobs/Species/Skrell/organs.rsi
-    state: eyes
+    layers:
+    - state: eyes
   - type: Item
     size: Small
 
