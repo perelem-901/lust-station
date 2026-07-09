@@ -21,6 +21,17 @@
     metabolizerTypes: [Skrell]
 
 - type: entity
+  id: OrganSkrellEyes
+  parent: OrganHumanEyes
+  name: Skrell eyes
+  components:
+  - type: Sprite
+    sprite: _Lust/Mobs/Species/Skrell/organs.rsi
+    state: eyes
+  - type: Item
+    size: Small
+
+- type: entity
   id: OrganSkrellStomach
   parent: OrganHumanStomach
   name: Skrell stomach
