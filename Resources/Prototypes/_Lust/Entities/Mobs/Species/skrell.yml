@@ -19,6 +19,9 @@
   - type: Damageable
     damageContainer: Biological
     damageModifierSet: Skrell
+  - type: StaminaResistance
+    damageCoefficient: 1.3
+    worn: false
   - type: TemperatureDamage
     heatDamageThreshold: 420
     coldDamageThreshold: 280
