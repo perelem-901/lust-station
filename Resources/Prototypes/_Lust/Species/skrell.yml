@@ -15,6 +15,14 @@
   femaleLastNames: names_skrell_last
   naming: FirstLast
   sexes: [Male, Female, Futanari]
+  minAge: 20
+  maxAge: 135
+  youngAge: 35
+  oldAge: 70
+  minHeightCm: 170
+  maxHeightCm: 195
+  standardWeight: 65
+  standardDensity: 110
 
 - type: bodyType
   id: SkrellNormal

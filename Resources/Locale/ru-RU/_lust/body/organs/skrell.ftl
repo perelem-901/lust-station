@@ -1,8 +1,8 @@
-ent-OrganSkrellHeart = скрелльское сердце
+ent-OrganSkrellHeart = сердце скрелла
     .desc = { ent-OrganHumanHeart.desc }
 
-ent-OrganSkrellLiver = скрелльская печень
+ent-OrganSkrellLiver = печень скрелла
     .desc = { ent-OrganHumanLiver.desc }
 
-ent-OrganSkrellStomach = скрелльский желудок
+ent-OrganSkrellStomach = желудок скрелла
     .desc = { ent-OrganHumanStomach.desc }

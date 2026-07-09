@@ -73,6 +73,15 @@
           - !type:ReagentCondition
             reagent: Darvinium
             min: 5
+      # Lust-Edit: Skrell evolution
+      - !type:Polymorph
+        prototype: PermanentlySkrell
+        conditions:
+          - !type:MetabolizerTypeCondition
+            type: [ Neaera ]
+          - !type:ReagentCondition
+            reagent: Darvinium
+            min: 5
 
 - type: reagent
   id: Inc

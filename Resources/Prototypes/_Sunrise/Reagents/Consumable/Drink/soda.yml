@@ -225,6 +225,23 @@
         - !type:ReagentCondition
           reagent: ChangelingStingSunrise
           min: 25
+      # Lust-Edit start: Skrell changeling sting
+      - !type:Polymorph
+        prototype: ChangelingStingSkrell
+        probability: 0.361
+        conditions:
+        - !type:ReagentCondition
+          reagent: ChangelingStingSunrise
+          min: 25
+      - !type:AdjustReagent
+        reagent: ChangelingStingSunrise
+        amount: -1000
+        probability: 1
+        conditions:
+        - !type:ReagentCondition
+          reagent: ChangelingStingSunrise
+          min: 25
+      # Lust-Edit end
 
 - type: reagent
   id: DrGibbSunrise

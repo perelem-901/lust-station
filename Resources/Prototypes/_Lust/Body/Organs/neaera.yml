@@ -1,0 +1,8 @@
+- type: entity
+  id: OrganNeaeraHeart
+  parent: OrganAnimalHeart
+  name: neaera heart
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Metabolizer
+    metabolizerTypes: [ Animal, Neaera ]

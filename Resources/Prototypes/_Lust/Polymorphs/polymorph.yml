@@ -1,0 +1,23 @@
+- type: polymorph
+  id: PermanentlySkrell
+  configuration:
+    entity: MobSkrellRandomization
+    forced: true
+    transferName: true
+    inventory: Transfer
+    revertOnCrit: false
+    revertOnDeath: false
+    blockIfHasMind: true
+
+- type: polymorph
+  id: ChangelingStingSkrell
+  configuration:
+    entity: MobSkrellRandomization
+    forced: true
+    transferDamage: true
+    transferName: true
+    inventory: Transfer
+    revertOnDeath: true
+    revertOnCrit: true
+    revertOnDelete: true
+    allowRepeatedMorphs: true

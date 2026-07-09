@@ -1,0 +1,7 @@
+- type: entity
+  parent: MobSkrell
+  id: MobSkrellRandomization
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: RandomHumanoidAppearance
+    randomizeName: false

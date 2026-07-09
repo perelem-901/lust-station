@@ -5,7 +5,16 @@
 - ~~Гайд по расе в guidebook~~ ✅
 - ~~Локализация для всего (проверить, что ничего не пропущено)~~ ✅ эмоуты, спеш-вербы, метаболизатор, названия
 - ~~Phase 4: Emotes (skanger, sklaugh, skpeep, sktrill, skwarble)~~ ✅
+- Скрелл-блюдо (аналог человеческой лазаньи/космо-кексов и т.п.)
+- ~~Генетический предок — Neaera~~ ✅ (кубик, обёртка, в VariantCubeBoxSunrise)
+- ~~Neaera локализация~~ ✅ (en-US + ru-RU: имя, описание, кубики)
 - Phase 5: Advanced (cold-blooded, permeable skin)
+  - Спрайт глаз Skrell (доработать: симметрия, размер, ресницы). Референс: https://wiki.aurorastation.org/images/1/1d/Skrell.png
+  - Water soothe: вода снимает Skrell галлюцинации (StatusEffectSeeingRainbow). Чистый YAML — тег Amphibious, условие на TileEntityEffect воды.
+  - Замедление в воде (SpeedModifierContacts ×0.5): убрать для Skrell нельзя без C# (нет условий на компоненте).
+- Спрайты органов скреллов (OrganSkrellHeart/Liver/Stomach — сейчас используют человеческие текстуры)
+- Наименование органов: сейчас «скрелльское сердце» (прилагательное), но у дварфов «сердце дварфа» (родительный падеж). Нужно определиться с единым форматом.
+- Проверить скрелл-обезьяну (MobSkrellMonkey/corgi и т.п.)
 
 ## Реализовано в Phase 4 (эмоуты)
 

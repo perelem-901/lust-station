@@ -2,7 +2,7 @@
   parent: MonkeyCubeBox
   name: variant cube box
   id: VariantCubeBoxSunrise
-  description: Both kobold, mothroach, pig, slime, chiken cubes and monkey cubes. Just add water!
+  description: Both kobold, mothroach, pig, slime, chiken, neaera cubes and monkey cubes. Just add water!
   components:
   - type: EntityTableContainerFill
     containers:
@@ -18,6 +18,10 @@
           amount: 2
         - id: FelinidCubeWrapped
           amount: 2
+        # Lust-Edit start: Neaera ancestral cube
+        - id: NeaeraCubeWrapped
+          amount: 2
+        # Lust-Edit end
   - type: Sprite
     sprite: Objects/Misc/monkeycube.rsi
     state: box_variant

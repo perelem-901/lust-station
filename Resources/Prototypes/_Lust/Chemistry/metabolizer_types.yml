@@ -1,3 +1,7 @@
 - type: metabolizerType
   id: Skrell
   name: metabolizer-type-skrell
+
+- type: metabolizerType
+  id: Neaera
+  name: metabolizer-type-neaera
