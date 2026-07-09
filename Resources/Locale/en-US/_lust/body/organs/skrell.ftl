@@ -1,8 +1,8 @@
-ent-OrganSkrellHeart = Skrell Heart
+ent-OrganSkrellHeart = Skrell heart
     .desc = { ent-OrganHumanHeart.desc }
 
-ent-OrganSkrellLiver = Skrell Liver
+ent-OrganSkrellLiver = Skrell liver
     .desc = { ent-OrganHumanLiver.desc }
 
-ent-OrganSkrellStomach = Skrell Stomach
+ent-OrganSkrellStomach = Skrell stomach
     .desc = { ent-OrganHumanStomach.desc }

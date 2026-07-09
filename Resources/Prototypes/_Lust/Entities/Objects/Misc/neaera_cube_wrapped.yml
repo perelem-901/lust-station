@@ -1,0 +1,14 @@
+- type: entity
+  parent: BaseWrappedCube
+  name: neaera cube
+  id: NeaeraCubeWrapped
+  description: Unwrap this to get a neaera cube.
+  components:
+  - type: SpawnItemsOnUse
+    items:
+      - id: NeaeraCube
+    sound:
+      path: /Audio/Effects/unwrap.ogg
+  - type: Sprite
+    sprite: _Sunrise/Objects/Misc/cube.rsi
+    state: wrapper_pig

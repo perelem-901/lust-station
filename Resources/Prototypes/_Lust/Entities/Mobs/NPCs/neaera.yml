@@ -1,0 +1,38 @@
+- type: entity
+  parent: MobBaseAncestor
+  id: MobNeaera
+  components:
+  - type: NameIdentifier
+    group: Monkey
+  - type: Body
+    prototype: Neaera
+  - type: Bloodstream
+    bloodReferenceSolution:
+      reagents:
+      - ReagentId: CopperBlood
+        Quantity: 300
+  - type: Sprite
+    drawdepth: Mobs
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: neaera
+      sprite: _Lust/Mobs/Animals/neaera.rsi
+    - map: [ "jumpsuit" ]
+    - map: [ "enum.HumanoidVisualLayers.Handcuffs" ]
+      color: "#ffffff"
+      sprite: Objects/Misc/handcuffs.rsi
+      state: body-overlay-2
+      visible: false
+    - map: [ "ears" ]
+    - map: [ "outerClothing" ]
+    - map: [ "id" ]
+    - map: [ "mask" ]
+    - map: [ "head" ]
+    - map: [ "clownedon" ]
+      sprite: "Effects/creampie.rsi"
+      state: "creampie_human"
+      visible: false
+  - type: Speech
+    speechSounds: Skrell
+    speechVerb: Skrell
+    allowedEmotes: ['Scream', 'Laugh', 'Trill', 'SkrellWarble', 'SkrellPeep']
