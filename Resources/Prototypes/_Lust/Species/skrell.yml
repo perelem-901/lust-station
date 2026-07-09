@@ -61,8 +61,8 @@
 - type: humanoidBaseSprite
   id: MobSkrellEyes
   baseSprite:
-    sprite: _Lust/Mobs/Species/Skrell/eyes.rsi
-    state: default
+    sprite: _Lust/Mobs/Species/Skrell/organs.rsi
+    state: eyes
 
 - type: humanoidBaseSprite
   id: MobSkrellHead

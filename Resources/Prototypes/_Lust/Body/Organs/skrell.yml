@@ -3,6 +3,9 @@
   parent: OrganHumanHeart
   name: Skrell heart
   components:
+  - type: Sprite
+    sprite: _Lust/Mobs/Species/Skrell/organs.rsi
+    state: heart-on
   - type: Metabolizer
     metabolizerTypes: [Skrell]
 
@@ -11,6 +14,9 @@
   parent: OrganHumanLiver
   name: Skrell liver
   components:
+  - type: Sprite
+    sprite: _Lust/Mobs/Species/Skrell/organs.rsi
+    state: liver
   - type: Metabolizer
     metabolizerTypes: [Skrell]
 
@@ -19,5 +25,8 @@
   parent: OrganHumanStomach
   name: Skrell stomach
   components:
+  - type: Sprite
+    sprite: _Lust/Mobs/Species/Skrell/organs.rsi
+    state: stomach
   - type: Metabolizer
     metabolizerTypes: [Skrell]
