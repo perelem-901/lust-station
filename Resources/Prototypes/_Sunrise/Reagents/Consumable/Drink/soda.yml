@@ -221,7 +221,6 @@
         - !type:ReagentCondition
           reagent: ChangelingStingSunrise
           min: 5
-          min: 25
       # Lust-Edit start: Skrell changeling sting
       - !type:Polymorph
         prototype: ChangelingStingSkrell
@@ -229,7 +228,7 @@
         conditions:
         - !type:ReagentCondition
           reagent: ChangelingStingSunrise
-          min: 25
+          min: 5
       - !type:AdjustReagent
         reagent: ChangelingStingSunrise
         amount: -1000
@@ -237,7 +236,7 @@
         conditions:
         - !type:ReagentCondition
           reagent: ChangelingStingSunrise
-          min: 25
+          min: 5
       # Lust-Edit end
 
 - type: reagent
